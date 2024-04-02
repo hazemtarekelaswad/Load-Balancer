@@ -1,0 +1,10 @@
+{
+    "instancesCount": 3,
+    "serverPath": "./server.js",
+    "loadBalancerHost": "localhost",
+    "loadBalancerPort": 8000,
+    "serverHost": "localhost",
+    "serverInitialPort": 5000,
+    "algorithm": "weightedRoundRobin",
+    "weights": [2, 3, 1]
+}
